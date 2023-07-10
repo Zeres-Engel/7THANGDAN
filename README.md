@@ -25,7 +25,7 @@ This application is designed to simulate image transformations and allows users 
 
 The objective of this assignment is to familiarize students with geometric primitives and transformations through the development of a program. The program allows for the drawing of rectangles and the application of 2D transformations. Students will have the opportunity to explore concepts such as translation, rotation, and scaling, using the mouse to interact with the application.
 
-  <img src="images/overview.png" width="600">
+  <img src="images/overview.png" width="800">
 
 ## Deploying the Product
 
@@ -35,19 +35,27 @@ The application is designed to simulate image transformations and provides inter
 
  Key features of the application include:
 
-  * Creating a white background**: The application initializes with a blank canvas and a white background, providing a clean space for subsequent operations.
+  * Creating a white background: The application initializes with a blank canvas and a white background, providing a clean space for subsequent operations.
 
-  * Drawing rectangles**: Users can interactively draw rectangles using the mouse. By clicking on a starting coordinate (p1(x1, y1)), dragging the mouse to a different position (p2(x2, y2)), and releasing the mouse, a rectangle corresponding to the selected coordinates will be drawn on the canvas.
+  * Drawing rectangles: Users can interactively draw rectangles using the mouse. By clicking on a starting coordinate (p1(x1, y1)), dragging the mouse to a different position (p2(x2, y2)), and releasing the mouse, a rectangle corresponding to the selected coordinates will be drawn on the canvas.
 
-  * Performing translation transformations**: Users can apply translation transformations to rectangles. By inputting translation information, such as the amount to move in the x and y directions, the application calculates the new coordinates of the rectangle after the translation.
+  <img src="images/feature1.svg" width="800">   
 
-  * Applying rotation transformations**: Users can choose the rotation transformation function to rotate rectangles. By specifying the rotation angle, the application calculates the new coordinates of the rectangle after the rotation.
+  * Performing translation transformations: Users can apply translation transformations to rectangles. By inputting translation information, such as the amount to move in the x and y directions, the application calculates the new coordinates of the rectangle after the translation.
 
-  * Utilizing scaling transformations**: The scaling transformation function enables users to apply scaling factors to rectangles. By inputting the scaling factors for the horizontal and vertical directions, a new rectangle will be drawn with adjusted coordinates based on the scaling transformation.
+  <img src="images/feature2.svg" width="800">   
+
+  * Applying rotation transformations: Users can choose the rotation transformation function to rotate rectangles. By specifying the rotation angle, the application calculates the new coordinates of the rectangle after the rotation.
+
+  <img src="images/feature3.svg" width="800">   
+
+  * Utilizing scaling transformations: The scaling transformation function enables users to apply scaling factors to rectangles. By inputting the scaling factors for the horizontal and vertical directions, a new rectangle will be drawn with adjusted coordinates based on the scaling transformation.
+
+  <img src="images/feature4.svg" width="800">   
 
   ### Configuration
 
-  To run the FPT Vision application, follow the steps below:
+  To run the 7THANGDAN application, follow the steps below:
 
   1. Install Dependencies:
     Make sure you have the required dependencies installed in your environment. You can install them by running the following command:
