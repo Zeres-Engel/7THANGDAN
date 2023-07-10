@@ -1,4 +1,4 @@
-# FPT VISION
+# 7THANGDAN DRAWING
 
 <div>
   <p align="center">
@@ -6,72 +6,44 @@
   </p>
 </div>
 
-Welcome to FPT Vision, an application built using the QT library that combines the power of facial detection and recognition. With the utilization of the RetinaFace model for facial detection and the Iresnet100 and ArcFace models for facial recognition, FPT Vision provides accurate and efficient face labeling and recognition capabilities.
-
-This application allows users to label names for faces captured through a camera or images, enabling the creation of labeled datasets for training and identification purposes. Additionally, FPT Vision leverages the camera to perform real-time face recognition, providing instant identification and verification.
-
-With a user-friendly interface, FPT Vision offers seamless interaction and intuitive controls for capturing, labeling, and recognizing faces. The advanced deep learning techniques employed by FPT Vision ensure reliable and precise results, enabling users to effectively organize and analyze face-related data.
-
-Make the most of FPT Vision to streamline your face labeling and recognition tasks, whether it's for security, identification, or personalized applications. Feel empowered with this powerful tool that harnesses the capabilities of QT, RetinaFace, Iresnet100, and ArcFace to enhance your facial analysis workflows.
+This application is designed to simulate image transformations and allows users to perform various operations on rectangles drawn on a white background. The functions provided include creating a white background, drawing rectangles based on user input, and applying translation, rotation, and scaling transformations to the rectangles.
 
 <p align="center">
   <img src="https://img.shields.io/badge/OS-Windows-red?style=flat&logo=" />
   <img src="https://img.shields.io/badge/Python-v3.9.13-blue?style=flat&logo=python" />
-  <img src="https://img.shields.io/badge/Neural%20Network-Iresnet100%2C%20ArcFace%2C%20RetinaFace-yellow?style=flat&logo=pytorch" />
   <img src="https://img.shields.io/badge/QT-6.3.2-green?style=flat&logo=qt" />
   <a href="https://github.com/Zeres-Engel"><img src="https://img.shields.io/github/followers/Zeres-Engel.svg?style=social&label=Follow" /></a>
 </p>
 
 # Table of Content
 - [Overview](#overview)
-- [Operational Principles](#operational-principles)
 - [Deploying the Product](#deploying-the-product)
     - [User Interface](#user-interface)
     - [Configuration](#configuration)
 
 ## Overview
 
-The application allows users to label faces by entering names in the text bar. The model performs facial detection and applies a normalization crop to the detected faces. It then saves the cropped face images into a directory with the same name as the entered name. Additionally, the application performs facial recognition on the detected faces.
+The objective of this assignment is to familiarize students with geometric primitives and transformations through the development of a program. The program allows for the drawing of rectangles and the application of 2D transformations. Students will have the opportunity to explore concepts such as translation, rotation, and scaling, using the mouse to interact with the application.
 
   <img src="images/overview.png" width="600">
 
-## Operational Principles
-
-The application utilizes the RetinaFace model for facial detection, which accurately locates faces in the input images. Additionally, it performs landmark detection to identify five key facial landmarks: the two eyes, the nose, and the two mouth corners.
-
-After detecting the facial landmarks, the application extracts the corresponding facial regions and transforms them into feature vectors using the Iresnet100 and ArcFace models. These feature vectors capture the unique characteristics of each face.
-
-To perform recognition, the application compares the feature vectors of the detected faces using cosine similarity. Cosine similarity measures the similarity between two vectors by calculating the cosine of the angle between them. By comparing the feature vectors, the application determines the degree of similarity between faces and performs recognition accordingly.
-
-  <img src="images/diagram.png" width="600">
-
 ## Deploying the Product
 
-Our face recognition application is designed to provide accurate and efficient face detection, landmark detection, and recognition capabilities. It leverages advanced deep learning models, including RetinaFace for face detection, Iresnet100 and ArcFace for face recognition, and landmark detection algorithms to ensure precise alignment.
-
-The application allows users to label faces by providing names and performs recognition by comparing the extracted feature vectors using cosine similarity. It provides seamless integration with cameras and image inputs, making it suitable for real-time face recognition applications.
+The application is designed to simulate image transformations and provides interactivity with rectangles on a white background. With this application, users can perform essential operations such as drawing rectangles and applying translation, rotation, and scaling transformations.
 
   ### User Interface
 
-  The user interface of our face recognition application is designed to provide an intuitive and seamless experience for users. It incorporates three main features, each offering specific functionality:
+  Key features of the application include:
 
-  * Feature 1: Image Labeling
+    * **Creating a white background**: The application initializes with a blank canvas and a white background, providing a clean space for subsequent operations.
 
-  This feature allows users to select a JPG image file and enter a name for the face found in the image. The application will save the cropped face image with the entered name below the text bar. It's important to note that this feature is designed for images with only a single face.
+    * **Drawing rectangles**: Users can interactively draw rectangles using the mouse. By clicking on a starting coordinate (p1(x1, y1)), dragging the mouse to a different position (p2(x2, y2)), and releasing the mouse, a rectangle corresponding to the selected coordinates will be drawn on the canvas.
 
-  <img src="images/feature1.png" width="600">
+    * **Performing translation transformations**: Users can apply translation transformations to rectangles. By inputting translation information, such as the amount to move in the x and y directions, the application calculates the new coordinates of the rectangle after the translation.
 
-  * Feature 2: Camera Face Labeling
+    * **Applying rotation transformations**: Users can choose the rotation transformation function to rotate rectangles. By specifying the rotation angle, the application calculates the new coordinates of the rectangle after the rotation.
 
-  With this feature, users can open the camera and perform face labeling through the camera input. By entering a name in the text bar, the application will label the face detected with the largest bounding box and display it within the application.
-
-  <img src="images/feature2.png" width="600">
-
-  * Feature 3: Camera Face Recognition
-
-  The final feature utilizes the camera input to detect faces and display the names of the faces based on the previously aligned faces stored in the "Aligned" directory. If no matching directory is found for the detected faces in the "Aligned" directory, the application will label them as "Unknown".
-
-  <img src="images/feature3.png" width="600">
+    * **Utilizing scaling transformations**: The scaling transformation function enables users to apply scaling factors to rectangles. By inputting the scaling factors for the horizontal and vertical directions, a new rectangle will be drawn with adjusted coordinates based on the scaling transformation.
 
   ### Configuration
 
@@ -88,6 +60,3 @@ The application allows users to label faces by providing names and performs reco
       ```shell
       python main.py
       ```
-
-  3. Quick Start:
-    If you want to quickly experience the application without going through the installation process, you can download the pre-built application from [here](https://example.com).
