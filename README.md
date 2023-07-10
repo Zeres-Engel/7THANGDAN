@@ -1,4 +1,4 @@
-# 7THANGDAN DRAWING
+# 7THANGDAN
 
 <div>
   <p align="center">
