@@ -39,19 +39,19 @@ The application is designed to simulate image transformations and provides inter
 
   * Drawing rectangles: Users can interactively draw rectangles using the mouse. By clicking on a starting coordinate (p1(x1, y1)), dragging the mouse to a different position (p2(x2, y2)), and releasing the mouse, a rectangle corresponding to the selected coordinates will be drawn on the canvas.
 
-  <img src="images/feature1.svg" width="800">   
+  <img src="images/feature1.png" width="800">   
 
   * Performing translation transformations: Users can apply translation transformations to rectangles. By inputting translation information, such as the amount to move in the x and y directions, the application calculates the new coordinates of the rectangle after the translation.
 
-  <img src="images/feature2.svg" width="800">   
+  <img src="images/feature2.png" width="800">   
 
   * Applying rotation transformations: Users can choose the rotation transformation function to rotate rectangles. By specifying the rotation angle, the application calculates the new coordinates of the rectangle after the rotation.
 
-  <img src="images/feature3.svg" width="800">   
+  <img src="images/feature3.png" width="800">   
 
   * Utilizing scaling transformations: The scaling transformation function enables users to apply scaling factors to rectangles. By inputting the scaling factors for the horizontal and vertical directions, a new rectangle will be drawn with adjusted coordinates based on the scaling transformation.
 
-  <img src="images/feature4.svg" width="800">   
+  <img src="images/feature4.png" width="800">   
 
   ### Configuration
 
