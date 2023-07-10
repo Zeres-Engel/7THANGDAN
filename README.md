@@ -2,7 +2,7 @@
 
 <div>
   <p align="center">
-    <img src="images/svg_images/logo_top_100x22.svg" width="800"> 
+    <img src="images/logo.svg" width="800"> 
   </p>
 </div>
 
